@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://locoding.com.cdn.dnsv1.com</id>
+    <id>https://coding-pages-bucket-3545488-8626651-16014-570284-1253780517.cos-website.ap-hongkong.myqcloud.com</id>
     <title>Gridea</title>
-    <updated>2021-04-13T05:30:14.251Z</updated>
+    <updated>2021-04-13T09:00:11.540Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://locoding.com.cdn.dnsv1.com"/>
-    <link rel="self" href="https://locoding.com.cdn.dnsv1.com/atom.xml"/>
+    <link rel="alternate" href="https://coding-pages-bucket-3545488-8626651-16014-570284-1253780517.cos-website.ap-hongkong.myqcloud.com"/>
+    <link rel="self" href="https://coding-pages-bucket-3545488-8626651-16014-570284-1253780517.cos-website.ap-hongkong.myqcloud.com/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://locoding.com.cdn.dnsv1.com/images/avatar.png</logo>
-    <icon>https://locoding.com.cdn.dnsv1.com/favicon.ico</icon>
+    <logo>https://coding-pages-bucket-3545488-8626651-16014-570284-1253780517.cos-website.ap-hongkong.myqcloud.com/images/avatar.png</logo>
+    <icon>https://coding-pages-bucket-3545488-8626651-16014-570284-1253780517.cos-website.ap-hongkong.myqcloud.com/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://locoding.com.cdn.dnsv1.com/post/hello-gridea/</id>
-        <link href="https://locoding.com.cdn.dnsv1.com/post/hello-gridea/">
+        <id>https://coding-pages-bucket-3545488-8626651-16014-570284-1253780517.cos-website.ap-hongkong.myqcloud.com/post/hello-gridea/</id>
+        <link href="https://coding-pages-bucket-3545488-8626651-16014-570284-1253780517.cos-website.ap-hongkong.myqcloud.com/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
