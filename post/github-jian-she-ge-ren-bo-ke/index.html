@@ -1,0 +1,247 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>github建设个人博客 | Gridea</title>
+<link rel="shortcut icon" href="https://luo-tianzhu.github.io/favicon.ico?v=1618367797228">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://luo-tianzhu.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="github建设个人博客 | Gridea - Atom Feed" href="https://luo-tianzhu.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="github+gridea搭建博客和绑定域名
+子滨 2020-11-02 13:56:08  309  收藏 1
+分类专栏： 个人博客 文章标签： github web
+版权
+文章目录
+前言
+静态网页与动态网页简述
+托管静态网页的平台
+静态..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://luo-tianzhu.github.io">
+  <img class="avatar" src="https://luo-tianzhu.github.io/images/avatar.png?v=1618367797228" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              github建设个人博客
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-04-14
+              </span>
+              <span>
+                4 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>github+gridea搭建博客和绑定域名</p>
+<p>子滨 2020-11-02 13:56:08  309  收藏 1<br>
+分类专栏： 个人博客 文章标签： github web<br>
+版权<br>
+文章目录<br>
+前言<br>
+静态网页与动态网页简述<br>
+托管静态网页的平台<br>
+静态网页生成器<br>
+所需工具<br>
+部署个人博客<br>
+创建仓库存储静态网页<br>
+生成个人访问令牌<br>
+在gridea填写域名，仓库名称等信息，同步<br>
+设置主题<br>
+绑定域名<br>
+注册域名<br>
+绑定域名<br>
+测试解析<br>
+域名解析生效测试<br>
+本地域名解析生效测试<br>
+成功的喜悦<br>
+总结<br>
+前言<br>
+前几天，偶然看到非常好看的个人博客，让我产生了浓厚的兴趣，搞了两三天，遇到了很多问题，接下来就记录一下简单的搭建过程吧，入门级别的笔记，大佬勿喷！</p>
+<p>静态网页与动态网页简述<br>
+静态网页------无需跟服务器交流，比如纯HTML写的网页，今天搭建的博客就是这种类型<br>
+动态网页------需要跟服务器交流，比如可以登录的网站<br>
+一般网页都是两者结合使用的<br>
+托管静态网页的平台<br>
+例如github(国外),gitee(国内),coding(国内)等</p>
+<p>静态网页生成器<br>
+hexo，hexo(便捷版)，gridea，Jekyll，Hugo等</p>
+<p>所需工具<br>
+使用github托管个人博客静态网页，使用gridea作为静态网页生成器(操作简单)</p>
+<p>github账号官网<br>
+gridea下载安装官网<br>
+部署个人博客<br>
+创建仓库存储静态网页</p>
+<p>生成个人访问令牌<br>
+依次点击，右上角头像-&gt;Developer settings-&gt;Personal access tokens-&gt;Generate new token</p>
+<p>在gridea填写域名，仓库名称等信息，同步</p>
+<p>刷新一下github仓库网页，会看到多了很多文件</p>
+<p>设置主题<br>
+原生主题不好看，怎么换主题呢</p>
+<p>gridea主题市场</p>
+<p>我挺喜欢的主题next主题地址</p>
+<p>找到你喜欢的主题，下载即可</p>
+<p>添加文件后，可以在gridea主题更改主题，不同主题功能不一样</p>
+<p>配置好主题，再同步</p>
+<p>就可以通过xxx.github.io访问博客了</p>
+<p>绑定域名<br>
+xxx.github.io这个网址不够个性化，也不好记，于是就需要绑定域名，通过域名访问博客</p>
+<p>注册域名<br>
+有免费的，也有收费的，这里使用阿里云注册的域名，刚开始可以买一个便宜的域名玩玩，我买了个首年1块钱的域名</p>
+<p>阿里云域名注册地址</p>
+<p>购买后需要实名认证，搜索域名控制台</p>
+<p>绑定域名</p>
+<p>点击解析</p>
+<p>只有域名解析是访问不了博客的，需要github上部署的博客知道你是用什么域名访问</p>
+<p>测试解析<br>
+域名解析生效测试<br>
+阿里云的dns解析网站链接</p>
+<p>本地域名解析生效测试<br>
+由于本地DNS缓存的原因，可能需要等几分钟才能访问博客</p>
+<p>苹果电脑下载<br>
+[windows电脑下载](http://dns-tool.oss-cn-beijing.aliyuncs.com/阿里巴巴DNS检测工具 Setup latest.exe?spm=a2c4g.11186623.2.19.be872da1VvQ6lZ&amp;file=阿里巴巴DNS检测工具 Setup latest.exe)<br>
+下载好软件，打开软件</p>
+<p>成功的喜悦</p>
+<p>总结<br>
+遇到问题很多，越发觉得理论的重要性，能帮助你更快，更容易上手</p>
+<p>绑定域名成功了，下一步，实现百度搜索 能搜索到这个博客，并实现加速访问<br>
+————————————————<br>
+版权声明：本文为CSDN博主「子滨」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>
+原文链接：https://blog.csdn.net/weixin_46079657/article/details/109447587</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://luo-tianzhu.github.io/post/hello-gridea/">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://luo-tianzhu.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
