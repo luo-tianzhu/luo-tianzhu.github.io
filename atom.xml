@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luo-tianzhu.github.io</id>
-    <title>LoCoDing</title>
-    <updated>2021-04-15T10:24:20.040Z</updated>
+    <title>TianZhu.pro</title>
+    <updated>2021-04-19T02:30:36.367Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luo-tianzhu.github.io"/>
     <link rel="self" href="https://luo-tianzhu.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://luo-tianzhu.github.io/images/avatar.png</logo>
     <icon>https://luo-tianzhu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, LoCoDing</rights>
+    <rights>All rights reserved 2021, TianZhu.pro</rights>
     <entry>
         <title type="html"><![CDATA[github建设个人博客]]></title>
         <id>https://luo-tianzhu.github.io/post/github-jian-she-ge-ren-bo-ke/</id>
